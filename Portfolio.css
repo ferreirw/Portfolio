@@ -49,13 +49,14 @@ marquee{
     margin-top: 2%;
 }
 
-marquee h1{
+.Icontent marquee h1{
     font-family: "Orbitron", sans-serif;
     font-size:70px;
     margin: 0 0 0 0;
 }
 
 conveyer{
+    position:static;
     background-color: grey;
     height: 25px;
     width: 100%;
@@ -273,6 +274,8 @@ panneaux div{
 /*footer*/
 
 footer{
+    display: flex;
+    justify-content: center;
     background-color: rgb(97, 187, 40);
     height: 10vh;
     width: 100%;
@@ -291,12 +294,15 @@ footer{
 }
 
 .Bproject marquee{
-    margin-top: 2%;
-    height: 45%;
+    align-self: flex-end;
+    height: 60%;
+    margin-top: 0;
 }
 
 .Bproject h1{
-    height: 75%;
+    font-family: "Orbitron", sans-serif;
+    font-size:70px;
+    margin: 0.8% 0 0 0;
 }
 
 
@@ -613,6 +619,19 @@ footer span{
 .Ccontent .Titre{
     height: 20%;
 }
+
+.Bcontact marquee{
+    align-self: flex-end;
+    height: 60%;
+    margin-top: 0;
+}
+
+.Bcontact h1{
+    font-family: "Orbitron", sans-serif;
+    font-size:70px;
+    margin: 0.9% 0 0 0;
+}
+
 
 .Formulaire{
     display: grid;
