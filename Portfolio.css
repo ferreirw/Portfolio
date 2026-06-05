@@ -285,7 +285,7 @@ footer{
 /*projets*/
 
 .Bproject{
-    height: 310vh;
+    height: 300vh;
     color: radial;
 }
 
@@ -339,7 +339,7 @@ input{
     appearance: none;
     cursor: pointer;
     height: 33%;
-    width: 30%;
+    width: 28%;
     border-radius: 50%;
 }
 
@@ -871,6 +871,10 @@ button{
     grid-row: 2;
 }
 
+form:has(input:invalid) .Bsend{
+    background-color: grey;
+    pointer-events: none;
+}
 
 
 
