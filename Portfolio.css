@@ -165,8 +165,9 @@ div{
     );
     color: white;
     font-size: 2.5vw;
-    font-family: monospace;
+    font-family: "JetBrains Mono", monospace;
     text-align: center;
+    padding: 0 2% 0 2%;
     }
     
 
@@ -242,17 +243,20 @@ panneaux div{
     color: white;
     height: 100%;
     width: 50%;
-    text-align: center;
+    text-align: justify;
+    padding: 0 2% 0 2%;
 }
 
 .java{
     margin-right: 5%;
         font-size: 1.5vw;
+        font-family: "JetBrains Mono", monospace;
 }
 
 .python{
     margin-left: 5%;
         font-size: 1.5vw;
+        font-family: "JetBrains Mono", monospace;
 }
 
 .logos{
