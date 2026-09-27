@@ -659,7 +659,7 @@ footer span{
     height:50%;
     width: 20%;
     justify-self: center;
-    margin-top: 3%;
+    align-self: flex-start;
 }
 
 .clipboard{
