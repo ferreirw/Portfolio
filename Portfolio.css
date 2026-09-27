@@ -2,8 +2,8 @@
 body{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    height: 200vw;
+    min-height: 80vh;
+    height: 140vw;
     max-height:165vh;
     margin: 0;
 }
@@ -74,7 +74,8 @@ sol{
 
 aside{
     position: sticky;
-    height: 100vh;
+    height: 140vw;
+    max-height: 100vh;
     top: 0px;
     display: flex;
     justify-content: center; /* horizontal */
@@ -146,7 +147,6 @@ div{
     background-color: lightgray;
     justify-content: center;
     align-items:center;
-    
 }
 
 .desc{
@@ -156,7 +156,8 @@ div{
 
 .desc div{
         border :thick solid rgb(194, 113, 8);
-        height:70%;
+        height:30vw;
+        max-height:70%;
         width:75%;
         margin:5% 15% 0 15%;
         background: repeating-linear-gradient(
@@ -183,6 +184,7 @@ poteaux{
 .desc sol{
     height: 10%;
     width: 100%;
+    align-self: flex-end;
 }
 
 .competences{
