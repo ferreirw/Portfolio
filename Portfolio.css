@@ -18,7 +18,7 @@ main{
 
 .Titre{
     display: flex;
-    height: 25vh;
+    height: 20vw;
     flex-wrap: wrap;
 }
 
@@ -52,15 +52,15 @@ marquee h1{
     font-family: "Orbitron", sans-serif;
     line-height: 0.8;
     height: 100%;
-    font-size:70px;
+    font-size:4vw;
     margin: 0 0 0 0;
 }
 
 conveyer{
     background-color: grey;
-    min-height: 20px;
+    min-height: 8px;
     height: 2vw;
-    max-height: 35px;;
+    max-height: 35px;
     width: 100%;
 }
 
@@ -169,7 +169,7 @@ div{
         rgb(70, 70, 70) 20px
     );
     color: white;
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     font-family: "JetBrains Mono", monospace;
     text-align: center;
     padding: 0 2% 0 2%;
@@ -237,7 +237,7 @@ panneaux{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-height: 160px;
+    min-height: 100px;
     height: 20vw;
 }
 
@@ -280,7 +280,8 @@ panneaux div{
 }
 
 .logos img{
-    flex-shrink: 2;
+    height: 8vw;
+    max-height: 40px;
 }
 
 .logos conveyer {
@@ -309,8 +310,8 @@ footer{
 
 .Bproject h1{
     font-family: "Orbitron", sans-serif;
-    font-size:6vw;;
-    margin: 0.8% 0 0 0;
+    font-size:4vw;
+    line-height: 0.9;
 }
 
 
@@ -636,8 +637,13 @@ footer span{
 
 .Bcontact h1{
     font-family: "Orbitron", sans-serif;
-    font-size:70px;
-    margin: 0.9% 0 0 0;
+    font-size:4vw;;
+}
+
+.Bcontact conveyer{
+    min-height: 8px;
+    height: 2vw;
+    max-height: 35px;
 }
 
 
