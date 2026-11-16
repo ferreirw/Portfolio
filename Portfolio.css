@@ -324,17 +324,7 @@ PROJET
     width: 100%;
 }
 
-/*Compétences nationales*/
-
-.CGdesc p{
-    display: none;
-    text-align: justify;
-    font-size: 2vw;
-    font-weight: 600;
-    font-variant: small-caps;
-}
-
-/*Autres descriptions*/
+/*Descriptions*/
 
 .Pcontent > *:not(:first-child){
     display: grid;
@@ -384,24 +374,24 @@ PROJET
     margin-top: 0;
     margin-bottom: 5%;
 }
-.Pcontent > :nth-child(2) .ExtendComp,
-.Pcontent >:nth-child(4) .ExtendComp{
+.Pcontent > :nth-child(2) .compTech,
+.Pcontent >:nth-child(4) .compTech{
     grid-row: 1;
     grid-column:3;
     margin-top: 10%;
     margin-bottom: 0;
     border-left: 0;
-    width: 33%;
-    height: 60%;
+    width: 50%;
+    height: 15%;
     justify-self: left;
-    align-self:center;
-    font-size: 1.3vw;
+    align-self:space-between;
+    font-size: 0.8vw;
     text-align: center;
 }
 
 
-.Pcontent >:nth-child(3) .ExtendComp,
-.Pcontent >:nth-child(5) .ExtendComp{
+.Pcontent >:nth-child(3) .compTech,
+.Pcontent >:nth-child(5) .compTech{
     grid-row: 2;
     grid-column:2;
     margin-top: 0;
@@ -410,7 +400,7 @@ PROJET
     height: 60%;
     justify-self: right;
     align-self:center;
-    font-size: 1.3vw;
+    font-size: 1vw;
     text-align: center;
     border-right: 0;
 }
