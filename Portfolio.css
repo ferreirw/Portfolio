@@ -329,13 +329,14 @@ PROJET
 .Pcontent > *:not(:first-child){
     display: grid;
     grid-auto-flow: row;
-    grid-template-rows: 75% 15% 10%;
+    grid-template-rows: 30% 45% 15% 10%;
     grid-template-columns: repeat(4,1fr);
 }
 
 
 .Pcontent > *:not(:first-child) div{
-    grid-row: 1;
+    grid-row-start: 1;
+    grid-row-end:3;
     grid-column-start: 1;
     grid-column-end: 3;
     margin-top: 5%;
@@ -362,13 +363,14 @@ PROJET
 .Pcontent >:nth-child(5){
     display: grid;
     grid-auto-flow: row;
-    grid-template-rows: 15% 75% 10%;
+    grid-template-rows: 15% 25% 50% 10%;
     grid-template-columns: 25% 25% 25% 25%;
 }
 
 .Pcontent >:nth-child(3) div,
 .Pcontent >:nth-child(5) div{
-    grid-row: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
     grid-column-start: 3;
     grid-column-end: 5;
     margin-top: 0;
@@ -425,7 +427,7 @@ PROJET
 
 .Bproject poteaux{
     height: 100%;
-    grid-row:2;
+    grid-row:3;
     justify-self: center;
 }
 
@@ -442,7 +444,7 @@ PROJET
 }
 
 .Pcontent >:not(:first-child) sol {
-    grid-row: 3;
+    grid-row: 4;
     grid-column-start:1;
     grid-column-end:last;
     height: 100%;
